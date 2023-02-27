@@ -26,6 +26,8 @@ nav{
     display: flex;
     gap: 3px;
     justify-content: center;
+    border: 2px;
+    border-color: red;
 }
 
 
@@ -35,8 +37,14 @@ a{
     
 
 @media screen and (min-width:600px){
-    a{
+   
+    nav{
+        display: flex;
+        gap: 3px;
+        justify-content: center;
         flex-direction: column;
+        border: 10px;
+        border-color: red;
     }
     
 
