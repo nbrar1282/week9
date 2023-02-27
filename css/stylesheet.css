@@ -26,8 +26,8 @@ nav{
     display: flex;
     gap: 3px;
     justify-content: center;
-    border: 2px;
-    border-color: red;
+    border: 2px double blue;
+    padding: 10px;
 }
 
 
@@ -40,11 +40,20 @@ a{
    
     nav{
         display: flex;
+        align-items: center;
         gap: 3px;
         justify-content: center;
         flex-direction: column;
         border: 10px;
         border-color: red;
+        margin: 10px;
+        border: 7px double blue;
+    
+    }
+    body{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 20px;
     }
     
 
